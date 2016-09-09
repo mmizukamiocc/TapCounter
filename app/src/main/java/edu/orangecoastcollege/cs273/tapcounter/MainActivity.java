@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
         tapCount.addCount();
+            countTextView.setText(String.valueOf(tapCount.getCount()));
         }
     };
 
