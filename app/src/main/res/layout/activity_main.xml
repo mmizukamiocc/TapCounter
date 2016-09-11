@@ -7,14 +7,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.orangecoastcollege.cs273.tapcounter.MainActivity"
-    android:id="@+id/tapCounterLinearLayout">
+    android:id="@+id/tapCounterLinearLayout"
+    android:background="@drawable/background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/countTextView"
         android:gravity="center_horizontal"
-        android:layout_toLeftOf="@+id/tapButton"
+        android:textSize="@dimen/abc_text_size_display_3_material"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:layout_alignRight="@+id/tapButton"
+        android:layout_alignEnd="@+id/tapButton"
         android:layout_alignLeft="@+id/tapButton"
         android:layout_alignStart="@+id/tapButton" />
 
